@@ -1,0 +1,29 @@
+
+.navbar{
+    margin: 20px;
+}
+#home{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px;
+    gap: 10px;
+   
+
+}
+
+.card1, .card2, .card3{
+border: 1px solid black;
+gap: 15px;
+
+}
+#footer{
+    display: block;
+    border-top: 1px solid black;
+    
+    
+}
+@media screen and (max-width: 480px) {
+    #home {
+      display: inline-block;
+    }
+  }
